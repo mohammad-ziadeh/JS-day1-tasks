@@ -22,17 +22,23 @@
   document.getElementById("age").innerHTML = 18 < x < 30;
 }
 {
-  let x = 1 ** 2,
-    y = 2 ** 3;
-  document.getElementById("expo").innerHTML = x * y;
+  let x = 1,
+    y = 3 ** 2;
+  document.getElementById("expo").innerHTML = y - x;
 }
-// {
-//   let x = 100,
-//     y = 200;
-//   document.getElementById("remain").innerHTML = y * (x / y) === x;
-// }
 {
-  let x = 100,
-    y = 200;
-  document.getElementById("ammro").innerHTML = y * (x / y) === x;
+  let x = 10,
+    y = 4;
+  document.getElementById("remain").innerHTML = x % y;
 }
+
+// x = 10;
+// y = 20;
+
+// console.log(" x = ", x, " y = ", y);
+// x = x + y; // 30
+// y = x - y; // 10
+// x = x - y; // 20
+// console.log(" x = ", x, " y = ", y);
+
+// dov
