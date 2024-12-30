@@ -19,7 +19,7 @@
 }
 {
   let x = 20;
-  document.getElementById("age").innerHTML = 18 < x < 30;
+  document.getElementById("age").innerHTML = x < 30 && x > 18;
 }
 {
   let x = 1,
